@@ -7,7 +7,7 @@ namespace ExerciciosPOO
 {
     public class Veiculo
     {
-        public int Velocidade{ get; set; }
+        public int Velocidade{ get; private set; }
 
         public void alterarVelocidade(int novaVelocidade)
         {
