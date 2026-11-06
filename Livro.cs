@@ -11,8 +11,12 @@ namespace ExerciciosPOO
         public string? Autor {get; set;}
         public int NumeroPaginas {get; set;}
 
-        public Livro();
-
+        public Livro()
+        {
+            Titulo = "titulo legal";
+            Autor = "Autor Legal";
+            NumeroPaginas = 69;
+        }
         public Livro (string titulo)
         {
             Titulo = titulo;
